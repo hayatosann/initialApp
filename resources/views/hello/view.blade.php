@@ -5,6 +5,6 @@
   <title>Laravel</title>
 </head>
 <body>
-  {{msg}}
+  {{$msg}}
 </body>
 </html>

@@ -21,3 +21,4 @@ Route::get('hello/list','HelloController@list');
 
 Route::get('view/master','ViewController@master');
 Route::get('view/comp','ViewController@comp');
+Route::get('view/list','ViewController@list');

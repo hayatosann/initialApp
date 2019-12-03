@@ -13,4 +13,10 @@ class ViewController extends Controller
           'msg'=>'こんにちは',
       ]);
   }
+    public function comp()
+  {
+      return view('view.comp',[
+          'msg'=>'こんにちは',
+      ]);
+  }
 }
